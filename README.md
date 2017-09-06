@@ -260,12 +260,12 @@ slf4j-over-log4j12等等。 这些包非常容易混在一起。 最终的后果
 
 默认情况下，类冲突是不显示的，除非你加上maven参数 -Dshow.class.conflicts=true 
 
-+ Jar包冲突
++ Jar包冲突   
 有类冲突的2个jar。比如相同的类（相同包名，相同类名，但类大小不一样），在1.jar有，有2.jar也有，则1.jar与2.jar就有冲突。    
 Jar包冲突率(Jar Conflicts Ratio): 有冲突的jar包数 /总jar包数  
 例如：在你的应用的classpath上有100个jar包，有5个jar包有冲突，则Jar包冲突率(Jar Conflicts Ratio)=5/100(5%)  
 
-+ 日志冲突
++ 日志冲突    
 
    有些日志包不能共存，不然它们可能会导致你的应用日志打印不出来，或者日志系统无法初始化。
    主要有3种类型：    
@@ -282,7 +282,7 @@ Jar包冲突率(Jar Conflicts Ratio): 有冲突的jar包数 /总jar包数
    
 如果你想了解关于日志冲突的更多细节，你可以参考这个网站 https://www.slf4j.org/codes.html#version_mismatch.  
 
-+ 版本冲突 
++ 版本冲突    
 
 某个jar的版本过低，或者某个jar的版本与另外一个版本的jar不兼容。 
 
