@@ -30,24 +30,24 @@ Very easy, just config a maven plugin as you used to do.
 3. add FindConflicts maven plugin to your pom.xml   
 For example:
  
- 	<build>
-   	<plugins> 
- 		<plugin>
-            <groupId>findconflicts</groupId>
-            <artifactId>fc-maven-plugin</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
-            <executions>
-                    <execution>
-                            <phase>package</phase>
-                            <goals><goal>go</goal></goals>
-                    </execution>
-            </executions>
-            <configuration>
-                    <versionCheckConfig>${basedir}/versionCheck.pb</versionCheckConfig>
-            </configuration>
-          </plugin>
-    </plugins>
- 	</build> 
+	 	<build>
+	   	<plugins> 
+	 		<plugin>
+	            <groupId>findconflicts</groupId>
+	            <artifactId>fc-maven-plugin</artifactId>
+	            <version>1.0.0-SNAPSHOT</version>
+	            <executions>
+	                    <execution>
+	                            <phase>package</phase>
+	                            <goals><goal>go</goal></goals>
+	                    </execution>
+	            </executions>
+	            <configuration>
+	                    <versionCheckConfig>${basedir}/versionCheck.pb</versionCheckConfig>
+	            </configuration>
+	          </plugin>
+	    </plugins>
+	 	</build> 
  
 4. mvn package -Dmaven.test.skip=true
 
