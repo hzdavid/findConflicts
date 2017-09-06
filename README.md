@@ -113,7 +113,7 @@ The rule of versionCheck.pb is like this (one rule one line):
 if xxxgroupId:xxxArtifactId >=2.2.2 then  yyygroupId:yyyArtifactId>2.1.8   
 zzzgroupId:zzzArtifactId>5.1.6  
 
-It means that at you classpath,      
+It means that at your application's classpath,      
 if the version of xxxgroupId:xxxArtifactId is larger than 2.2.2 or equal to 2.2.2, the  yyygroupId:yyyArtifactId should be larger than 2.1.8. Otherwise it is a conflict.
 The version of zzzgroupId:zzzArtifactId should be larger than 5.1.6. Otherwise it is a conflict.
 
