@@ -208,24 +208,24 @@ slf4j-over-log4j12等等。 这些包非常容易混在一起。 最终的后果
 3. 把FindConflicts配置在你的maven工程的pom.xml中   
 例如:
  
- 	<build>
-   	<plugins> 
- 		<plugin>
-            <groupId>findconflicts</groupId>
-            <artifactId>fc-maven-plugin</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
-            <executions>
-                    <execution>
-                            <phase>package</phase>
-                            <goals><goal>go</goal></goals>
-                    </execution>
-            </executions>
-            <configuration>
-                    <versionCheckConfig>${basedir}/versionCheck.pb</versionCheckConfig>
-            </configuration>
-          </plugin>
-    </plugins>
- 	</build> 
+	 	<build>
+	   	<plugins> 
+	 		<plugin>
+	            <groupId>findconflicts</groupId>
+	            <artifactId>fc-maven-plugin</artifactId>
+	            <version>1.0.0-SNAPSHOT</version>
+	            <executions>
+	                    <execution>
+	                            <phase>package</phase>
+	                            <goals><goal>go</goal></goals>
+	                    </execution>
+	            </executions>
+	            <configuration>
+	                    <versionCheckConfig>${basedir}/versionCheck.pb</versionCheckConfig>
+	            </configuration>
+	          </plugin>
+	    </plugins>
+	 	</build> 
  
 4. mvn package -Dmaven.test.skip=true
 
