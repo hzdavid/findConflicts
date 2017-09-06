@@ -135,7 +135,7 @@ The sample is :https://github.com/hzdavid/findConflicts/tree/master/src/main/res
     groupId: the maven position attribute group.   
     artifactId: the maven position attribute artifactId.   
     version:the maven position attribute version.  
-    originFrom: which dependency makes this jar to be imported.    It is the hint for you add a exclusion at your pom.xml at element dependency if you want to exclude this jar.
+    originFrom: which dependency makes this jar to be imported.    It is the hint for you to add a exclusion at your pom.xml at element dependency if you want to exclude this jar.
 + Log Conflicts    
 	|number| logConflictType |  groupId  |artifactId|version|originFrom|
 
@@ -144,7 +144,7 @@ The sample is :https://github.com/hzdavid/findConflicts/tree/master/src/main/res
     groupId: the maven position attribute group.   
     artifactId: the maven position attribute artifactId.   
     version:the maven position attribute version.  
-    originFrom: which dependency makes this jar to be imported. It is the hint for you add a exclusion at your pom.xml at element dependency if you want to exclude this jar.
+    originFrom: which dependency makes this jar to be imported. It is the hint for you to add a exclusion at your pom.xml at element dependency if you want to exclude this jar.
 
 
 + Version Conflicts   
@@ -156,7 +156,7 @@ The sample is :https://github.com/hzdavid/findConflicts/tree/master/src/main/res
     version:the maven position attribute version.  
     requiredVersion: the right required version  
     conflictReason: the reason. 
-    originFrom: which dependency makes this jar to be imported.  It is the hint for you add a exclusion at your pom.xml at element dependency if you want to exclude this jar.
+    originFrom: which dependency makes this jar to be imported.  It is the hint for you to add a exclusion at your pom.xml at element dependency if you want to exclude this jar.
 + Class Conflicts    
 	|number| classConflictRatio |  groupId  |artifactId|version|originFrom|
 
@@ -165,7 +165,7 @@ The sample is :https://github.com/hzdavid/findConflicts/tree/master/src/main/res
     groupId: the maven position attribute group.   
     artifactId: the maven position attribute artifactId   
     version:the maven position attribute version.  
-    originFrom: which dependency makes this jar to be imported.It is the hint for you add a exclusion at your pom.xml at element dependency if you want to exclude this jar.
+    originFrom: which dependency makes this jar to be imported.It is the hint for you to add a exclusion at your pom.xml at element dependency if you want to exclude this jar.
  
 # Help
 
