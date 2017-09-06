@@ -74,17 +74,17 @@ Before we explain the conflicts result, we need to have same recognition as for 
 
 They are four types of conflicts.
 
-+ Class Conflicts
++ Class Conflicts   
 Two classes have same package,same className. but different size.  
 Class Conflicts Ratio:  Number of Class Conflicts / Number of all classes.  
 For example,there are 1000 classes at your application classpath,but 5 classes conflict with others.So  Class Conflicts Ratio=5/1000(0.5%)
-+ Jar Conflicts
++ Jar Conflicts   
 Two jars have Class Conflicts.    
 For example, a same class(same package,same className,but different class size), exists in 1.jar and 2.jar,then 1.jar conflicts with 2.jar.    
 Jar Conflicts Ratio: Number of jar Conflicts / Number of all jar.    
 For example,there are 100 jars at your application classpath, but 5 jars conflict with others.So  Jar Conflicts Ratio=5/100(5%)  
 
-+ Log Conflicts
++ Log Conflicts   
 
    Some log libraries can't exist together. Otherwise it may cause log information will not be written or log system of your application initialized exceptionally.
    There are three types. 
@@ -103,7 +103,7 @@ For example,there are 100 jars at your application classpath, but 5 jars conflic
 	
 If you want to know more about log conflicts, you can refer https://www.slf4j.org/codes.html#version_mismatch.  
 
-+ Version Conflicts
++ Version Conflicts   
 
 The version of one jar is too low, or some a version of a jar can't work with another one of some a version.
 
