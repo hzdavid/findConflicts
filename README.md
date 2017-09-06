@@ -269,14 +269,14 @@ Jar包冲突率(Jar Conflicts Ratio): 有冲突的jar包数 /总jar包数
 
    有些日志包不能共存，不然它们可能会导致你的应用日志打印不出来，或者日志系统无法初始化。
    主要有3种类型：    
-    1. 栈溢出（StackOverflow）
+    1. 栈溢出（StackOverflow）    
     log4j-over-slf4j and slf4j-log4j12 不能共存。   
     jcl-over-slf4j and slf4j-jcl 不能共存.   
     因为它们会导致栈溢出异常。  
-    2. Apache公共日志包冲突(JCL Conflicts) 
+    2. Apache公共日志包冲突(JCL Conflicts)     
     jcl-over-slf4j, commons-logging 不能共存。   
     因为它们可能导致方法找不到的jvm错误，日志打印不出来。    
-    3. 多个日志类静态绑定（Multiple StaticLoggerBinder)
+    3. 多个日志类静态绑定（Multiple StaticLoggerBinder)   
     在你类路径上有多个org/slf4j/impl/StaticLoggerBinder.class.      
     它可能会导致日志打印不出来。 
    
