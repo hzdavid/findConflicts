@@ -88,14 +88,14 @@ For example,there are 100 jars at your application classpath, but 5 jars conflic
 
    Some log libraries can't exist together. Otherwise it may cause log information will not be written or log system of your application initialized exceptionally.
    There are three types. 
-    1. StackOverflow
+    1. StackOverflow    
     log4j-over-slf4j and slf4j-log4j12 can't exist together   
     jcl-over-slf4j and slf4j-jcl can't exist together.   
-    It may cause StackOverflow.
-    2. JCL Conflicts 
+    It may cause StackOverflow. 
+    2. JCL Conflicts     
     jcl-over-slf4j, commons-logging can't exist together.   
     It may cause NoSuthMethodError or log information  will not be written.
-    3. Multiple StaticLoggerBinder
+    3. Multiple StaticLoggerBinder    
     There are 2 or more org/slf4j/impl/StaticLoggerBinder.class.      
     It may cause log information  will not be written.
    
