@@ -136,7 +136,7 @@ The sample is :https://github.com/hzdavid/findConflicts/tree/master/src/main/res
     artifactId: the maven position attribute artifactId.   
     version:the maven position attribute version.  
     originFrom: which dependency makes this jar to be imported.    It is the hint for you add a exclusion at your pom.xml at element dependency if you want to exclude this jar.
-+ Log Conflicts
++ Log Conflicts    
 	|number| logConflictType |  groupId  |artifactId|version|originFrom|
 
     number: the number of a group of conflicts jar. One same number, One conflicts group.      
@@ -147,7 +147,7 @@ The sample is :https://github.com/hzdavid/findConflicts/tree/master/src/main/res
     originFrom: which dependency makes this jar to be imported. It is the hint for you add a exclusion at your pom.xml at element dependency if you want to exclude this jar.
 
 
-+ Version Conflicts
++ Version Conflicts   
 	|number| logConflictType |  groupId  |artifactId|version|originFrom|
 
     number: the number of a group of conflicts jar. One same number, One conflicts group.       
@@ -157,7 +157,7 @@ The sample is :https://github.com/hzdavid/findConflicts/tree/master/src/main/res
     requiredVersion: the right required version  
     conflictReason: the reason. 
     originFrom: which dependency makes this jar to be imported.  It is the hint for you add a exclusion at your pom.xml at element dependency if you want to exclude this jar.
-+ Class Conflicts
++ Class Conflicts    
 	|number| classConflictRatio |  groupId  |artifactId|version|originFrom|
 
     number: the number of a group of conflicts jar. One same number, One conflicts group.      
@@ -304,7 +304,7 @@ versionCheck.pb样本文件见 :https://github.com/hzdavid/findConflicts/tree/ma
 
 # 冲突结果表格解释
 
-+ Jar包冲突(Jar Conflicts)                       
++ Jar包冲突(Jar Conflicts)                         
 	|number| classConflictRatio |  groupId  |artifactId|version|originFrom|
 
     number: 冲突号。相同冲突号的，为一组冲突的jar包。     
@@ -313,7 +313,7 @@ versionCheck.pb样本文件见 :https://github.com/hzdavid/findConflicts/tree/ma
     artifactId: jar的maven坐标 artifactId   
     version: jar的maven坐标version.  
     originFrom: 是因为你配置了哪个依赖，导致这个jar被引入了。如果你要想排除这个jar包，你可以在pom.xml的dependency标签中增加exclusion。
-+ 日志冲突(Log Conflicts)
++ 日志冲突(Log Conflicts)    
 	|number| logConflictType |  groupId  |artifactId|version|originFrom|
 
     number: 冲突号。相同冲突号的，为一组冲突的jar包。       
@@ -324,7 +324,7 @@ versionCheck.pb样本文件见 :https://github.com/hzdavid/findConflicts/tree/ma
     originFrom: 是因为你配置了哪个依赖，导致这个jar被引入了。如果你要想排除这个jar包，你可以在pom.xml的dependency标签中增加exclusion。
 
 
-+ 版本冲突(Version Conflicts)
++ 版本冲突(Version Conflicts)    
 	|number| logConflictType |  groupId  |artifactId|version|originFrom|
 
     number: 冲突号。相同冲突号的，为一组冲突的jar包。         
@@ -334,7 +334,7 @@ versionCheck.pb样本文件见 :https://github.com/hzdavid/findConflicts/tree/ma
     requiredVersion: 正确的jar版本应该是  
     conflictReason: 冲突原因 
     originFrom: 是因为你配置了哪个依赖，导致这个jar被引入了。如果你要想排除这个jar包，你可以在pom.xml的dependency标签中增加exclusion。
-+ Class Conflicts
++ Class Conflicts   
 	|number| classConflictRatio |  groupId  |artifactId|version|originFrom|
 
     number: 冲突号。相同冲突号的，为一组冲突的jar包。     
