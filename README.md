@@ -172,7 +172,6 @@ versionCheck.pb样本文件见 :https://github.com/hzdavid/findConflicts/tree/ma
 
 mvn fc:help
 
-如果你什么问题或建议，可以写邮件给我。hzdavid2009@gmail.com。 我叫大伟。
 
 
 ***
@@ -352,5 +351,4 @@ The sample is :https://github.com/hzdavid/findConflicts/tree/master/src/main/res
 
  mvn fc:help   
  
- If you have some problems or suggestions, you can send mail to me at hzdavid2009@gmail.com. My name is david!
-   
+    
