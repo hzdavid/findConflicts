@@ -175,6 +175,10 @@ mvn fc:help
 如果你什么问题或建议，可以写邮件给我。hzdavid2009@gmail.com。 我叫大伟。
 
 
+***
+In Engish:
+
+
 # What is findConflicts?
 
 FindConflicts is a maven plugin, which is used to find conflicts such as jar/class/log conflicts among your maven projects.
@@ -244,8 +248,6 @@ About the explanation of the result,please read next.
 
 
 
-***
-In Engish:
 
 # Conflicts Definition 
 
